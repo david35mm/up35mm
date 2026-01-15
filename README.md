@@ -1,4 +1,4 @@
-# David Salomón's up35mm script
+# David Andrés' up35mm script
 
 <div style="text-align: center;">
 
@@ -9,81 +9,68 @@
 
 </div>
 
-## The Repository
+## 📁 The Repository
 
-Here you will find an automated script that clones my
-[.files repo](https://github.com/david35mm/.files) and applies some other
-changes to the system. The script only works _for now_ on Fedora and
-**VANILLA** Arch Linux. I don't think adding support to other distros would
-be difficult, so every pull request will be appreciated.
+This repository contains an automated script that clones my
+[.files repo](https://github.com/david35mm/.files) and applies a few additional
+system tweaks.
+
+At the moment, the script supports Fedora and **vanilla** Arch Linux. Adding
+support for other distributions should not be too difficult, so pull requests
+are very welcome.
 
 The contents of this repository are available under the terms of the
-[ISC License](https://choosealicense.com/licenses/isc/) and it is also the
-preferred license for contributions.
+[ISC License](https://choosealicense.com/licenses/isc/), which is also the
+preferred licence for contributions.
 
-## How to run the script?
+## 🚀 How to run the script?
 
-I guess you already now what dotfiles are, if not head
-[here](https://github.com/david35mm/.files#the-repository). Aside of cloning
-my [.files repo](https://github.com/david35mm/.files), some of the other
-options include a better DNF/Pacman config and aliases, automatic networking
-setup, installation of some window managers and the software selection I use
-(I'm thinking about removing that last thing cause maybe it's too much bloat
-on to your system)... among other things. If you want to run the script in
-your system <kbd>Ctrl+C</kbd> and <kbd>Ctrl+Shift+V</kbd> on your terminal
-this command:
+If you already know what dotfiles are, great. If not, you can read a quick
+explanation [here](https://github.com/david35mm/.files#the-repository).
+
+In addition to cloning my [.files repo](https://github.com/david35mm/.files),
+this script can apply a few extras, including:
+
+- improved DNF/Pacman configuration and aliases
+- automatic networking setup
+- installation of a few window managers
+- the software selection I use (this may change in the future)
+
+To run the script on your system, <kbd>Ctrl+C</kbd> and
+<kbd>Ctrl+Shift+V</kbd> the following command into your terminal:
 
 ```sh
 curl -fsSL https://raw.githubusercontent.com/david35mm/up35mm/main/up35mm.sh | sh
 ```
 
-## Who is David Salomón?
+## 👋 Who is David Andrés?
 
-I was an Electronic Engineering student, now seeking to study Computer
-Science, passionate about computers and everything related to it. I was born
-in [Bogotá](https://en.wikipedia.org/wiki/Bogot%C3%A1), the capital city of
-the South American country [Colombia](https://en.wikipedia.org/wiki/Colombia).
+I started out studying Electronic Engineering, but I am now doing Computer Science. I am especially interested in free and open-source software. I was born in [Bogotá](https://en.wikipedia.org/wiki/Bogot%C3%A1), the capital city of [Colombia](https://en.wikipedia.org/wiki/Colombia). Since starting my undergraduate degree at the [National University of Colombia](https://en.wikipedia.org/wiki/National_University_of_Colombia), I have been living in [Manizales](https://en.wikipedia.org/wiki/Manizales).
 
-In the last few years, one of my main hobbies has been photography, I even
-started a [small YouTube channel](https://www.youtube.com/channel/UC-8MDD0AHj0-ZUPolunq6MQ).
-I shared some tips and explain some concepts about photography, you are free
-to check out my videos but... as a native Spanish speaker all of my videos
-are going to be in that language.
+Photography has been one of my main hobbies over the past few years, and I also run a [small YouTube channel](https://www.youtube.com/channel/UC-8MDD0AHj0-ZUPolunq6MQ) where I share tips and explain photography concepts. All the videos are in Spanish.
 
-The 35mm on my nickname is because of the measurement of the photographic
-film used in the past. As a photography enthusiast I also have
-[my own portfolio](https://spark.adobe.com/page/yADDtrHvBow4p/), as you can
-see I love portraits and thus I base almost all of my work on this type of art.
+The “35mm” in my nickname comes from the classic photographic film format. I also have [my own portfolio](https://david35mm.com/tags/carrete/) — I mainly focus on portrait photography.
 
-If you are wondering what GNU/Linux distribution I use, I decided to come back
-to Fedora on the stable branch even though I would really like to try the
-rawhide edition. For almost all 2021 I used Artix Linux (with s6 init), If you
-are wondering why I decided to go back with Fedora, I would just say "El buen
-hijo vuelve a casa". Want to talk with me (or even practise your Spanish)? DM
-me over on [Instagram](https://www.instagram.com/david35mm.co).
+As for GNU/Linux, I have been using Fedora (stable branch) for the past few years, although I am still tempted to give Rawhide a go. Throughout most of 2021, I used Artix Linux (with s6 init). Feel free to DM me on [Instagram](https://www.instagram.com/david35mm.co) if you would like to chat (or practise your Spanish).
 
-### Here is a quick access to my active social media
+### 🔗 Quick links
 
 - [GitHub Profile](https://github.com/david35mm)
-
 - [Instagram Page](https://www.instagram.com/david35mm.co)
+- [Personal Portfolio](https://david35mm.com/tags/carrete/)
+- [YouTube Channel](https://www.youtube.com/@david.35mm51)
 
-- [Personal Portfolio](https://spark.adobe.com/page/yADDtrHvBow4p/)
+## 🍺 Buy me a beer
 
-- [YouTube Channel](https://www.youtube.com/channel/UC-8MDD0AHj0-ZUPolunq6MQ)
+If you would like to support my work, you can do so via my [PayPal link](https://paypal.me/david35mm). Any donation is genuinely appreciated.
 
-## Do you want to buy me a doughnut?
-
-I have a [PayPal link](https://paypal.me/david35mm) where you can send me your
-donation. If you are using the Brave Web Browser (If you don't then you should
-try it. It's an open source, privacy oriented browser) you could add me as a
-verified content creator to your monthly donation fee.
+If you use the Brave browser, you can also support me through Brave Rewards by adding me as a verified content creator.
 
 ## License
 
 > ISC License
 >
-> Copyright (c) 2022-2023 David Andrés Ramírez Salomón <david35mm@disroot.org>
+> Copyright (c) 2022-2026 David Andrés Ramírez Salomón <david35mm@disroot.org>
 >
 > Permission to use, copy, modify, and/or distribute this software for any
 > purpose with or without fee is hereby granted, provided that the above
